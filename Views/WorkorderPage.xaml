@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIAMPPUMPLITEPOC.Views.WorkorderPage"
+             xmlns:models="clr-namespace:MAUIAMPPUMPLITEPOC.Models"
+             x:DataType="models:WorkOrder"
+             Title="Workorders View">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <Entry x:Name="WorkorderEntry" Placeholder="Workorder Number" />
+            <Entry x:Name="ServiceCenterIdEntry" Keyboard="Numeric" Placeholder="Service Center Id" TextChanged="Entry_TextChanged" />
+            <Button Text="Add/Update Workorder" Clicked="OnSaveWorkorderClicked" Margin="10" />
+            <Button Text="Delete Selected Workorder" Clicked="OnDeleteWorkorderClicked" Margin="10"/>
+            <ListView x:Name="WorkordersListView" SelectionMode="Single" ItemSelected="OnWorkorderSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Padding="10">
+                                <Label Text="{Binding WorkOrderNumber}" FontAttributes="Bold" />
+                                <Label Text="{Binding ServiceCenterId}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

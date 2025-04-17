@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIAMPPUMPLITEPOC.Views.AssetPage"
+             xmlns:models="clr-namespace:MAUIAMPPUMPLITEPOC.Models"
+             x:DataType="models:Asset"
+             Title="Assets View">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <Entry x:Name="SerialNumberEntry" Placeholder="Serial Number" />
+            <Button Text="Add/Update Asset" Clicked="OnSaveAssetClicked" Margin="10" />
+            <Button Text="Delete Selected Asset" Clicked="OnDeleteAssetClicked" Margin="10"/>
+            <ListView x:Name="AssetsListView" SelectionMode="Single" ItemSelected="OnAssetSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Padding="10">
+                                <Label Text="{Binding AssetId}" FontAttributes="Bold" />
+                                <Label Text="{Binding SerialNumber}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

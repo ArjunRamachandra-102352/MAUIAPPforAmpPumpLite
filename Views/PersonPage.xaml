@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIAMPPUMPLITEPOC.Views.PersonPage"
+             xmlns:models="clr-namespace:MAUIAMPPUMPLITEPOC.Models"
+             x:DataType="models:Person"
+             Title="Persons View">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <Entry x:Name="FirstNameEntry" Placeholder="First Name" />
+            <Entry x:Name="LastNameEntry" Placeholder="Last Name" />
+            <Entry x:Name="AddressEntry" Placeholder="Address" />
+            <Entry x:Name="StateEntry" Placeholder="State" />
+            <Entry x:Name="CityEntry" Placeholder="City" />
+            <Entry x:Name="PincodeEntry" Placeholder="Pincode"  TextChanged="Entry_TextChanged"  Keyboard="Numeric" />
+            <Button Text="Add/Update Person" Clicked="OnSavePersonClicked" Margin="10" />
+            <Button Text="Delete Selected Person" Clicked="OnDeletePersonClicked" Margin="10"/>
+            <ListView x:Name="PersonsListView" SelectionMode="Single" ItemSelected="OnPersonSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Padding="10">
+                                <Label Text="{Binding FirstName}" FontAttributes="Bold" />
+                                <Label Text="{Binding LastName}" />
+                                <Label Text="{Binding Address}" />
+                                <Label Text="{Binding City}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

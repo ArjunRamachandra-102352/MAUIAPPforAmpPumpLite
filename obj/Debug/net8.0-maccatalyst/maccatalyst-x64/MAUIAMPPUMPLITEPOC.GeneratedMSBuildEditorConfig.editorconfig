@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MAUIAMPPUMPLITEPOC
+build_property.ProjectDir = C:\Users\Arjun.Ramachandra\source\repos\MAUIAPPforAmpPumpLite\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Arjun.Ramachandra/source/repos/MAUIAPPforAmpPumpLite/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIAMPPUMPLITEPOC.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Arjun.Ramachandra/source/repos/MAUIAPPforAmpPumpLite/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIAMPPUMPLITEPOC.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Arjun.Ramachandra/source/repos/MAUIAPPforAmpPumpLite/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIAMPPUMPLITEPOC.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Arjun.Ramachandra/source/repos/MAUIAPPforAmpPumpLite/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIAMPPUMPLITEPOC.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Arjun.Ramachandra/source/repos/MAUIAPPforAmpPumpLite/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIAMPPUMPLITEPOC.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Arjun.Ramachandra/source/repos/MAUIAPPforAmpPumpLite/Views/AssetPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIAMPPUMPLITEPOC.Views.AssetPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AssetPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AssetPage.xaml
+
+[C:/Users/Arjun.Ramachandra/source/repos/MAUIAPPforAmpPumpLite/Views/PersonPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIAMPPUMPLITEPOC.Views.PersonPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PersonPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PersonPage.xaml
+
+[C:/Users/Arjun.Ramachandra/source/repos/MAUIAPPforAmpPumpLite/Views/WorkorderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIAMPPUMPLITEPOC.Views.WorkorderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WorkorderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WorkorderPage.xaml
